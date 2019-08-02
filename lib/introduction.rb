@@ -8,4 +8,5 @@ def introduction_with_language (name, language)
 end
 introduction_with_language ("Dan", "Ember.js")
 
-def intr
+def introduction_with_optional (name, language = "Ruby")
+  puts "Hi, my name is #name"
